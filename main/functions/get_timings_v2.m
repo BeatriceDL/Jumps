@@ -1,4 +1,15 @@
 function [t_0, t_TO, v,vmax,a] = get_timings_v2(a, fs)
+%GET_TIMINGS_V2 is a function to identify onset and take-off instants and
+%extract the velocity trial starting from acceleration data.
+% Input:    - a: filtered acceleration data: matrix that contains the 3 components
+%                of acceleration.
+%           - fs: sampling frequency
+
+% Output:   - t_0: onset instant 
+%           - t_T0: take-off instant
+%           - v: velocity data
+%           - vmax: maximum velocity
+%           - a: acceleration data
 g = 9.80665;
 
 % Onset
@@ -22,7 +33,7 @@ v = [zeros(t_0,1); vt];
 % Find maximum index in velocity, then start finding the TO in acc from
 % that index. TO will be few samples after vmax, when a <= -g.
 
-%AGGIUNTA: max(v) sulla prima metà del salto
+% max(v) is on the first half of the jump
 [v1, vmin1] = min(v); j=1;
 vmin2=v(islocalmin(v));
 secondo_minimo=max(vmin2);

@@ -1,23 +1,19 @@
-function [tempo_h,lunghezza] = jump_estimate(v_0x,v_0y)
-%LUNGHEZZA_SALTO_V0s è una funzione creata al volo per calcolare tempo di
-%volo per arrivare al picco della parabola e la lunghezza del salto
-%(gittata della parabola).
-% Metodo usato, quello delle velocità al momento dello stacco => METODO V0s
+function [time_h,bjump] = jump_estimate(v_0x,v_0y)
+%JUMP_ESTIMATE is a function realized for the evaluation of bjump feature, following the 
+%hypothesis that SLJ is follows a projectile motion.
 
-% VARIABILI D'INGRESSO:
-%   v_0x= velocità orizzontale allo stacco
-%   v_0y= velocità verticale allo stacco
+% Input variables:
+%   v_0x= horizontal velocity at the take-off
+%   v_0y= vertical velocity at the take-off
 
-%   VARIABILI IN USCITA:
-%   tempo_h= tempo per arrivare al picco h della parabola
-%   lunghezza= distanza saltata
+% Output variables:
+%   time_h = time spent to arrive to the Maximum height of projectile
+%   bjump =  range in the horizontal plane
 
-%   ALTRE VARIABILI:
-%   g= gravità
 
 g= 9.80665;
 
-tempo_h = (1+sqrt(2))*v_0y/g;
+time_h = (1+sqrt(2))*v_0y/g;
 
-lunghezza =abs(2*v_0x*tempo_h); %perché in alcuni casi per il drift v0x o v0y sono negative
+bjump =abs(2*v_0x*time_h); %perché in alcuni casi per il drift v0x o v0y sono negative
 end
