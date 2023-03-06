@@ -15,4 +15,4 @@
 In this case the functions that you can use are: estimate_jump_v2 and feature_selection (and related features). After that, you create your dataset and divide it into training and test sets and apply the Regression Learner App.<br /><br /><br /><br />
 
 #### Work using your data and the realized models
-In this case you need to use normalize_set after having created your dataset in order to normalize data. Then, in the "results" folder, you can use your dataset as input of the model.
+In this case you need to use normalize_set after having created your dataset in order to normalize data. Then, in the "results" folder, you can use your dataset as input of the model.To normalize models, use data_with_models.mat contained in "results" folder.
