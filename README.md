@@ -11,7 +11,8 @@ The jump was considered correct if the participant succeeded in maintaining the 
 You can go to Apple Store or Playstore and download "Phyphox" app. <br />
 Once installed, go to the orange button and click on "Add simple experiment". Then, select the title of your experiment, sensor rate and active sensors. In this case, select accelerometer, gyroscope and magnetic field. <br />
 To control the smartphone remotely, click on your experiment and select "Allow remote access". In this way, you can control the smartphone using a computer connected to the Wi-Fi of the smartphone. <br />
-To this aim, once opened your experiment in Phyphox app, maintain the smartphone with the right hand near to the hip to perform the standing long jump (SLJ). The smartphone screen should be outward-oriented, with the longer side parallel to the ground.
+To this aim, once opened your experiment in Phyphox app, maintain the smartphone with the right hand near to the hip to perform the standing long jump (SLJ). The smartphone screen should be outward-oriented, with the longer side parallel to the ground. <br /> 
+Once the jump is performed, you can stop the recording and click on "Export data". You can select the Excel format for this purpose. The file containing the data of the jump will be exported using the selected format and it could be used to build your own dataset.
 #### Repository description
 In this repository you will find three folders:
 - data: in which you will find an example of the Excel file exported from Phyphox app and data used for ML models implementation
