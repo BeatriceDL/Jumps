@@ -6,7 +6,7 @@ Once the participant is ready, the jump recording starts and it will be composed
 - a static phase of a few seconds with the participant being with hands on the hips, feet in parallel stance position, and heels positioned at the zero of a meter tape; <br />
 - the jumping trial triggered by a vocal command of the operator; <br />
 - an after-landing second static phase. <br />
-The jump was considered correct if the participant succeeded in maintaining the equilibrium after landing without using their legs/arms and keeping the feet in the parallel stance position. The heel-to-heel distance, measured using the meter tape, was considered as the reference jump length to be estimated. <br />
+The jump was considered correct if the participant succeeded in maintaining the equilibrium after landing without additional steps and maintaining the parallel stance position. The heel-to-heel distance, measured using the meter tape, was considered as the reference jump length to be estimated. <br />
 #### How to install and use the Phyphox app and how to position the smartphone during the jump:
 You can go to Apple Store or Playstore and download "Phyphox" app. <br />
 Once installed, go to the orange button and click on "Add simple experiment". Then, select the title of your experiment, sensor rate and active sensors. In this case, select accelerometer, gyroscope and magnetic field. <br />
