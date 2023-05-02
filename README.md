@@ -5,6 +5,17 @@ To understand this repository, read the paper: </br>
 "Estimating the Standing Long Jump Length from Smartphone Inertial Sensors through Machine Learning Algorithms" </br>
 April 2023Bioengineering </br>
 DOI: 10.3390/bioengineering10050546 </br>
+## Credits
+All the material here presented is released with license CC BY-NC. You are free to: </br>
+
+Share — copy and redistribute the material in any medium or format. </br>
+Adapt — remix, transform, and build upon the material. </br>
+Under the following terms: </br>
+
+Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. </br>
+NonCommercial — You may not use the material for commercial purposes. </br>
+If you have any question, please contact me at beatrice.delazzari@gmail.com
+
 #### How to perform jumps:
 The jump has to be performed in the following way. Each participant executes the jump with the left hand on the hip and the right one near to the hip while holding the smartphone (SP). The SP has to be on and with the Phyphox app opened. <br />
 Once the participant is ready, the jump recording starts and it will be composed by three phases: <br /> 
