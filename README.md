@@ -6,14 +6,14 @@ To understand this repository, read the paper: </br>
 April 2023Bioengineering </br>
 DOI: 10.3390/bioengineering10050546 </br>
 ## Credits
-All the material here presented is released with license CC BY-NC. You are free to: </br>
+All the material here presented is released with license CC BY-NC. *You are free to*: </br>
 
-Share — copy and redistribute the material in any medium or format. </br>
-Adapt — remix, transform, and build upon the material. </br>
-Under the following terms: </br>
+*Share* — copy and redistribute the material in any medium or format. </br>
+*Adapt* — remix, transform, and build upon the material. </br>
+Under the *following terms*: </br>
 
-Attribution — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. </br>
-NonCommercial — You may not use the material for commercial purposes. </br>
+*Attribution* — You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. </br>
+*NonCommercial* — You may not use the material for commercial purposes. </br>
 If you have any question, please contact me at beatrice.delazzari@gmail.com
 
 #### How to perform jumps:
