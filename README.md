@@ -1,5 +1,10 @@
-# Jumps
-Repository about jumps: how to perform them using a smartphone and estimate the jumped distance.
+# Standing Long Jump (SLJ)
+Repository about jumps: how to perform them using a smartphone and estimate the jumped distance. </br>
+## Reference paper
+To understand this repository, read the paper: </br>
+"Estimating the Standing Long Jump Length from Smartphone Inertial Sensors through Machine Learning Algorithms" </br>
+April 2023Bioengineering </br>
+DOI: 10.3390/bioengineering10050546 </br>
 #### How to perform jumps:
 The jump has to be performed in the following way. Each participant executes the jump with the left hand on the hip and the right one near to the hip while holding the smartphone (SP). The SP has to be on and with the Phyphox app opened. <br />
 Once the participant is ready, the jump recording starts and it will be composed by three phases: <br /> 
